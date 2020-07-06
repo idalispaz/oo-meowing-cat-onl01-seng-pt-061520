@@ -4,10 +4,10 @@ class Cat
   
   def meow=(cat_sound)
     @meow = cat_sound
-    puts "meow!"
   end 
   
   def meow
     @meow 
+    puts "meow!"
   end 
 end 
